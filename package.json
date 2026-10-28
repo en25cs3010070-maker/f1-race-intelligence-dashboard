@@ -1,0 +1,10 @@
+{
+  "name": "f1-race-intelligence",
+  "version": "1.0.0",
+  "description": "F1 Race Intelligence Dashboard 2010-2026 (static site)",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 3000"
+  },
+  "license": "MIT"
+}

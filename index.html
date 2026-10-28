@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>F1 Race Intelligence Dashboard 2010–2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"></head><body>
+<nav><b><i>F1</i>RACE INTELLIGENCE</b><div><a href="#home">Home</a><a href="#project">Project</a><a href="#dashboard">Dashboard</a><a href="#story">Story</a><a href="#insights">Insights</a><a href="#drivers">Drivers</a><a class="c" href="#contact">Contact</a></div></nav>
+<header class="hero" id="home"><div><span class="tag">● LIVE RACE ANALYTICS PLATFORM</span><h1>FORMULA <span>1</span></h1><h2>RACE INTELLIGENCE DASHBOARD</h2>
+<p>Deep-dive analytics into Formula 1 data from 2010 to 2026: driver performance, team strategy, circuit analysis and championship trends, powered by Tableau.</p>
+<a class="btn r" href="#dashboard">▮ VIEW DASHBOARD</a><a class="btn" href="#story">▶ EXPLORE STORY</a>
+<div class="stats"><div><b data-n="17">0</b><small>Seasons</small></div><div><b data-n="6464">0</b><small>Race outcomes</small></div><div><b data-n="19">0</b><small>Drivers</small></div><div><b data-n="10">0</b><small>Constructors</small></div></div></div></header>
+<div class="band" id="project"><div><b data-n="6464">0</b><small>RACE OUTCOMES LOGGED</small></div><div><b data-n="29">0</b><small>CIRCUITS</small></div><div><b data-n="17">0</b><small>SEASONS 2010–26</small></div><div><b data-n="15">0</b><small>VIEWS BUILT</small></div></div>
+<section><div class="k">PROJECT OVERVIEW</div><h2>Transforming F1 Data Into <em>Championship Intelligence</em></h2><p class="sub">Five linked tables (race results, qualifying, lap intelligence, championship standings, circuits) are modelled in Tableau and turned into interactive views.</p>
+<div class="grid" id="dims"></div></section>
+<section id="dashboard"><div class="k">LIVE DASHBOARD</div><h2>Race Intelligence <em>Dashboard</em></h2><p class="sub">Click a driver, team or country to cross-filter. Built from the workbook's circuit, driver and team dimensions.</p>
+<div class="dash"><div class="dh"><i></i><i></i><i></i>&nbsp; F1 RACE INTELLIGENCE DASHBOARD</div>
+<div class="filters"><label>Team<select id="fT"></select></label><label>Season from<select id="fS"></select></label></div>
+<div class="kpi"><div><small>Competing teams</small><b>10</b></div><div><small>Seasons in play</small><b>17</b></div><div><small>Outcomes logged</small><b>6,464</b></div><div><small>Circuits</small><b>29</b></div></div>
+<div class="pan"><div><h3>GLOBAL GRAND PRIX CIRCUITS</h3><svg id="map" viewBox="0 0 360 180"></svg></div><div><h3>RACES HOSTED BY COUNTRY</h3><div id="cty"></div></div>
+<div><h3>DRIVER LEADERBOARD · POINTS</h3><div id="drv"></div></div><div><h3>TEAM PERFORMANCE RANKING</h3><div id="tm"></div></div></div></div></section>
+<section id="story"><div class="k">DATA STORY</div><h2>From Global Overview to <em>Championship Success</em></h2><p class="sub">&nbsp;</p>
+<div class="story"><h3>Formula 1 Race Intelligence: From Global Overview to Championship Success</h3><div class="tabs" id="tabs"></div><div class="pane" id="pane"></div></div></section>
+<section id="insights"><div class="k">KEY FINDINGS</div><h2>Race <em>Insights</em></h2><div class="tick"><b>LIVE DATA</b><span>Qualifying pace, tyre strategy, weather impact and DNF reasons tracked per race</span></div>
+<div class="grid" id="ins"></div></section>
+<section id="drivers"><div class="k">THE GRID</div><h2>Drivers &amp; <em>Constructors</em></h2><p class="sub">All drivers and teams present in the workbook.</p><div class="chips" id="chips"></div><br><table id="tbl"></table></section>
+<section id="gallery"><div class="k">CIRCUITS</div><h2>Circuit <em>Gallery</em></h2><div class="chips" id="circ"></div></section>
+<footer id="contact"><div class="o" style="color:#fff">F1 RACE INTELLIGENCE</div>Built with Tableau data · 2010–2026 · Not affiliated with Formula 1.<br><small>Chart magnitudes marked “sample” are placeholders until the workbook’s row-level data is supplied.</small></footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script></body></html>
